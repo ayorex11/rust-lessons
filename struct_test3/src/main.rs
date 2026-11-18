@@ -22,7 +22,7 @@ struct Point(i32, i32);
 fn main(){
     let c = Color(255, 128, 0);
     let p = Point(3, -4);
-    let Color(r,g,b) = c;
+    let Color(r,g,b) = c; //destructuring
     println!("Color: {r}, {g}, {b}");
     println!("Point: x={}, y={}", p.0, p.1);
 
